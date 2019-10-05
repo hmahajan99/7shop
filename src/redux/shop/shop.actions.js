@@ -19,6 +19,7 @@ export const fetchCollectionsFailure = errorMessage => ({
   payload: errorMessage
 });
 
+// Converted to saga in shop.sagas.js 
 export const fetchCollectionsStartAsync = () => {
   return dispatch => {
     const collectionRef = firestore.collection('collections');
@@ -32,4 +33,4 @@ export const fetchCollectionsStartAsync = () => {
       })
       .catch(error => dispatch(fetchCollectionsFailure(error.message)));
   };
-};
+}; 

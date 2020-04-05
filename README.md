@@ -37,3 +37,6 @@ To run this project :
 
 #### PWA :
 ![](screenshots/PWAAndroid1.jpeg)
+
+
+Open the screenshots folder for more screenshots

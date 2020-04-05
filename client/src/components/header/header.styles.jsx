@@ -42,3 +42,8 @@ export const OptionLink = styled(Link)`
   padding: 10px 15px;
   cursor: pointer;
 `;
+
+export const ContactLink = styled.a`
+  padding: 10px 15px;
+  cursor: pointer;
+`;
